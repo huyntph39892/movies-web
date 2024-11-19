@@ -22,7 +22,6 @@ function App() {
 
       setMovie(data.results);
       // console.log(data);
-      
     };
     fetchMovie();
   }, []);
